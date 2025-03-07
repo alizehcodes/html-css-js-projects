@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(mysterious-pretty-cabin-in-the-middle-of-the-forest-picjumbo-com.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.header a{
+    text-decoration: inherit;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right span{
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+.header_right span:hover{
+    text-decoration: underline;
+}
+/* Main body */
+.mainbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainbody h1{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120PX;
+    margin-bottom: 8px;
+}
+.G{
+    color: rgb(39, 39, 255);
+}
+.o{
+    color: red;
+}
+.o2{
+    color: rgb(255, 179, 37);
+}
+.g{
+    color: rgb(35, 255, 35);
+}
+.l{
+    color: rgb(65, 65, 253);
+}
+.e{
+    color: rgb(255, 22, 22);
+}
+/* Search input */
+.search_input{
+    display: flex;
+    border: 1px solid white;
+    padding: 10px 10px;
+    height: 20px;
+    border-radius: 999px;
+    width: 600px;
+    max-width: 547px;
+    margin: 0 auto;   
+}
+.search_input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 20px;
+}
+.search_input span{
+    color: white;
+}
+.mic{
+    padding-left: 280px;
+}
+/* button */
+.search_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.search_buttons button{
+    padding: 9px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    color: black;
+    cursor: pointer;
+}
+.btn1{
+    margin-left: 10px;
+}
+.search_buttons button:hover{
+    background-color: rgb(207, 201, 201);
+}
+::placeholder{
+    color: white;
+}
+/* End button */
+.endbutton{
+    border: none;
+    outline: none;
+    background-color: red;
+    background-attachment: fixed;
+    background-position: bottom;
+    margin-top: 180px;
+    margin-left: 1150px;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+}
+.endbutton button{
+    background-color: red;
+    outline: none;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+.endbutton button span{
+    margin-left: 2px;
+    font-size: 23px;
+    padding-right: 8px;
+}
+.endbutton:hover{
+    background-color: rgb(253, 32, 32);
+}
+.endbutton button:hover{
+    background-color: rgb(253, 32, 32);
+}
